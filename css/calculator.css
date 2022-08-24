@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+    width: 400px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.calc-screen {
+    height: 85px;
+    color: #ffffff;
+    text-align: right;
+    padding: 20px 5px;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace; 
+}
+
+.row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.button {
+    height: 100px;
+    background-color: #d8d9db ;
+    color: black;
+    border: none;
+    border-radius:0; 
+    font-size: 40px;
+    flex-basis: 24.5%;
+    cursor: pointer;
+}
+
+.button_double {
+    height: 100px;
+    background-color: #d8d9db; 
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    flex-basis: 49.7%;
+}
+.button_triple {
+    height: 100px;
+    height: 100px;
+    background-color: #d8d9db ;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    flex-basis: 74.8%;
+}
+
+button:last-child {
+    background-color: #df974c;
+    color: white;
+}
+
+.button:last-child:hover {
+   background-color:#dfb07e;
+}
+
+.button:last-child:active {
+    background-color:#dd8d37;
+ }
+ 
+
+.button:hover {
+    background-color: #ebebeb;
+}
+.button:active {
+    background-color: #bbbcbe;
+}
+
+.button_double:hover {
+    background-color: #ebebeb;
+}
+
+.button_double:active {
+    background-color: #bbbcbe;
+}
+
+.button_triple:hover {
+    background-color: #ebebeb;
+}
+
+.button_triple:active {
+    background-color: #bbbcbe;
+}
